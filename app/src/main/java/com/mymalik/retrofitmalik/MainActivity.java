@@ -28,8 +28,7 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
         //
-        String newBranch = "newBranch ";
-        String newCommit = "ZZ" ;
+        String baseURL = "asd";
         //
         String base = "https://jsonplaceholder.typicode.com/" ;
         Retrofit retrofit = new Retrofit.Builder().baseUrl(base).addConverterFactory(GsonConverterFactory.create()).build();
