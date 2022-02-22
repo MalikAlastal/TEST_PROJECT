@@ -64,6 +64,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             }
         });
 
+        int r = 1;
         binding.addLocation.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

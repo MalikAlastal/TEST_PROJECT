@@ -67,7 +67,9 @@ public class RecyclerMain extends RecyclerView.Adapter<RecyclerMain.MyHolder> {
 
         void bind(MyJsonObject object){
             this.object = object ;
-
+            //
+            int dd= 1;
+            //
             binding.etName.setText(object.getName());
             binding.etEmail.setText(object.getEmail());
         }
