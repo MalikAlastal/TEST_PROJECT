@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         //
         String test = "abood";
         String newBranch = "newBranch ";
+        String malik = "malik";
         //
         String base = "https://jsonplaceholder.typicode.com/" ;
         Retrofit retrofit = new Retrofit.Builder().baseUrl(base).addConverterFactory(GsonConverterFactory.create()).build();
