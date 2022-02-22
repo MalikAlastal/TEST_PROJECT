@@ -27,7 +27,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
+        //
+        String test = "test";
+        //
         String base = "https://jsonplaceholder.typicode.com/" ;
         Retrofit retrofit = new Retrofit.Builder().baseUrl(base).addConverterFactory(GsonConverterFactory.create()).build();
 
