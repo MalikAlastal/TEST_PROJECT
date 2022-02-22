@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(binding.getRoot());
         //
         String newBranch = "newBranch ";
-        String newCommit = "abd  el aziz" ;
+        String newCommit = "ZZ" ;
         //
         String base = "https://jsonplaceholder.typicode.com/" ;
         Retrofit retrofit = new Retrofit.Builder().baseUrl(base).addConverterFactory(GsonConverterFactory.create()).build();
